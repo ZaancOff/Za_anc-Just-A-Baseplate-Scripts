@@ -1,5 +1,3 @@
--- Generated using RoadToGlory's Converter v1.1 (RoadToGlory#9879)
-
 -- Instances:
 
 local Converted = {
