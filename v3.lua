@@ -1,3 +1,5 @@
+print("Hub created by - Za_anc")
+
 -- Instances:
 
 local Converted = {
@@ -62,7 +64,12 @@ local Converted = {
 	["_UIStroke14"] = Instance.new("UIStroke");
 	["_LocalScript11"] = Instance.new("LocalScript");
 	["_UIGradient"] = Instance.new("UIGradient");
+	["_credits"] = Instance.new("Frame");
+	["_UICorner15"] = Instance.new("UICorner");
+	["_UIStroke15"] = Instance.new("UIStroke");
+	["_TextLabel2"] = Instance.new("TextLabel");
 	["_UIAspectRatioConstraint"] = Instance.new("UIAspectRatioConstraint");
+	["_UIAspectRatioConstraint1"] = Instance.new("UIAspectRatioConstraint");
 }
 
 -- Properties:
@@ -72,8 +79,7 @@ Converted["_ScreenGui"].Parent = game:GetService("CoreGui")
 Converted["_Frame"].BackgroundColor3 = Color3.fromRGB(48.00000473856926, 48.00000473856926, 48.00000473856926)
 Converted["_Frame"].BorderColor3 = Color3.fromRGB(0, 0, 0)
 Converted["_Frame"].BorderSizePixel = 0
-Converted["_Frame"].Position = UDim2.new(0.745249391, 0, 0.605676711, 0)
-Converted["_Frame"].Selectable = true
+Converted["_Frame"].Position = UDim2.new(0.00540707074, 0, 0.60809797, 0)
 Converted["_Frame"].Size = UDim2.new(0.250286549, 0, 0.383777231, 0)
 Converted["_Frame"].Parent = Converted["_ScreenGui"]
 
@@ -170,7 +176,7 @@ Converted["_ghosthub"].TextWrapped = true
 Converted["_ghosthub"].BackgroundColor3 = Color3.fromRGB(148.000006377697, 148.000006377697, 148.000006377697)
 Converted["_ghosthub"].BorderColor3 = Color3.fromRGB(0, 0, 0)
 Converted["_ghosthub"].BorderSizePixel = 0
-Converted["_ghosthub"].Position = UDim2.new(0.0102486731, 0, 0.372878402, 0)
+Converted["_ghosthub"].Position = UDim2.new(0.0102485828, 0, 0.297168612, 0)
 Converted["_ghosthub"].Size = UDim2.new(0.321083158, 0, 0.100000001, 0)
 Converted["_ghosthub"].Name = "ghosthub"
 Converted["_ghosthub"].Parent = Converted["_Frame"]
@@ -188,7 +194,7 @@ Converted["_portalgun"].TextWrapped = true
 Converted["_portalgun"].BackgroundColor3 = Color3.fromRGB(148.000006377697, 148.000006377697, 148.000006377697)
 Converted["_portalgun"].BorderColor3 = Color3.fromRGB(0, 0, 0)
 Converted["_portalgun"].BorderSizePixel = 0
-Converted["_portalgun"].Position = UDim2.new(0.671698153, 0, 0.372878402, 0)
+Converted["_portalgun"].Position = UDim2.new(0.674127102, 0, 0.297168612, 0)
 Converted["_portalgun"].Size = UDim2.new(0.321083158, 0, 0.100000001, 0)
 Converted["_portalgun"].Name = "portalgun"
 Converted["_portalgun"].Parent = Converted["_Frame"]
@@ -231,7 +237,7 @@ Converted["_fakevr2"].TextWrapped = true
 Converted["_fakevr2"].BackgroundColor3 = Color3.fromRGB(148.000006377697, 148.000006377697, 148.000006377697)
 Converted["_fakevr2"].BorderColor3 = Color3.fromRGB(0, 0, 0)
 Converted["_fakevr2"].BorderSizePixel = 0
-Converted["_fakevr2"].Position = UDim2.new(0.343396366, 0, 0.372878402, 0)
+Converted["_fakevr2"].Position = UDim2.new(0.343396455, 0, 0.297168612, 0)
 Converted["_fakevr2"].Size = UDim2.new(0.321083158, 0, 0.100000001, 0)
 Converted["_fakevr2"].Name = "fakevr2"
 Converted["_fakevr2"].Parent = Converted["_Frame"]
@@ -249,7 +255,7 @@ Converted["_giant"].TextWrapped = true
 Converted["_giant"].BackgroundColor3 = Color3.fromRGB(148.000006377697, 148.000006377697, 148.000006377697)
 Converted["_giant"].BorderColor3 = Color3.fromRGB(0, 0, 0)
 Converted["_giant"].BorderSizePixel = 0
-Converted["_giant"].Position = UDim2.new(0.0116349403, 0, 0.597775817, 0)
+Converted["_giant"].Position = UDim2.new(0.0116349449, 0, 0.424274236, 0)
 Converted["_giant"].Size = UDim2.new(0.321083158, 0, 0.100000001, 0)
 Converted["_giant"].Name = "giant"
 Converted["_giant"].Parent = Converted["_Frame"]
@@ -267,7 +273,7 @@ Converted["_satanfling"].TextWrapped = true
 Converted["_satanfling"].BackgroundColor3 = Color3.fromRGB(148.000006377697, 148.000006377697, 148.000006377697)
 Converted["_satanfling"].BorderColor3 = Color3.fromRGB(0, 0, 0)
 Converted["_satanfling"].BorderSizePixel = 0
-Converted["_satanfling"].Position = UDim2.new(0.342877895, 0, 0.597775817, 0)
+Converted["_satanfling"].Position = UDim2.new(0.342877924, 0, 0.424274236, 0)
 Converted["_satanfling"].Size = UDim2.new(0.321083158, 0, 0.100000001, 0)
 Converted["_satanfling"].Name = "satanfling"
 Converted["_satanfling"].Parent = Converted["_Frame"]
@@ -285,7 +291,7 @@ Converted["_flinghands"].TextWrapped = true
 Converted["_flinghands"].BackgroundColor3 = Color3.fromRGB(148.000006377697, 148.000006377697, 148.000006377697)
 Converted["_flinghands"].BorderColor3 = Color3.fromRGB(0, 0, 0)
 Converted["_flinghands"].BorderSizePixel = 0
-Converted["_flinghands"].Position = UDim2.new(0.67654407, 0, 0.597775817, 0)
+Converted["_flinghands"].Position = UDim2.new(0.67654407, 0, 0.424274236, 0)
 Converted["_flinghands"].Size = UDim2.new(0.321083158, 0, 0.100000001, 0)
 Converted["_flinghands"].Name = "flinghands"
 Converted["_flinghands"].Parent = Converted["_Frame"]
@@ -303,7 +309,7 @@ Converted["_hug"].TextWrapped = true
 Converted["_hug"].BackgroundColor3 = Color3.fromRGB(148.000006377697, 148.000006377697, 148.000006377697)
 Converted["_hug"].BorderColor3 = Color3.fromRGB(0, 0, 0)
 Converted["_hug"].BorderSizePixel = 0
-Converted["_hug"].Position = UDim2.new(0.0116349403, 0, 0.86623615, 0)
+Converted["_hug"].Position = UDim2.new(0.0116349449, 0, 0.544469595, 0)
 Converted["_hug"].Size = UDim2.new(0.321083158, 0, 0.100000001, 0)
 Converted["_hug"].Name = "hug"
 Converted["_hug"].Parent = Converted["_Frame"]
@@ -321,7 +327,7 @@ Converted["_meowhub"].TextWrapped = true
 Converted["_meowhub"].BackgroundColor3 = Color3.fromRGB(148.000006377697, 148.000006377697, 148.000006377697)
 Converted["_meowhub"].BorderColor3 = Color3.fromRGB(0, 0, 0)
 Converted["_meowhub"].BorderSizePixel = 0
-Converted["_meowhub"].Position = UDim2.new(0.342877895, 0, 0.86623615, 0)
+Converted["_meowhub"].Position = UDim2.new(0.342877924, 0, 0.544469595, 0)
 Converted["_meowhub"].Size = UDim2.new(0.321083158, 0, 0.100000001, 0)
 Converted["_meowhub"].Name = "meowhub"
 Converted["_meowhub"].Parent = Converted["_Frame"]
@@ -339,7 +345,7 @@ Converted["_greet"].TextWrapped = true
 Converted["_greet"].BackgroundColor3 = Color3.fromRGB(148.000006377697, 148.000006377697, 148.000006377697)
 Converted["_greet"].BorderColor3 = Color3.fromRGB(0, 0, 0)
 Converted["_greet"].BorderSizePixel = 0
-Converted["_greet"].Position = UDim2.new(0.67654407, 0, 0.86623615, 0)
+Converted["_greet"].Position = UDim2.new(0.674115241, 0, 0.544469595, 0)
 Converted["_greet"].Size = UDim2.new(0.321083158, 0, 0.100000001, 0)
 Converted["_greet"].Name = "greet"
 Converted["_greet"].Parent = Converted["_Frame"]
@@ -355,8 +361,37 @@ Converted["_UIGradient"].Color = ColorSequence.new{
 }
 Converted["_UIGradient"].Parent = Converted["_Frame"]
 
-Converted["_UIAspectRatioConstraint"].AspectRatio = 1.2988190650939941
-Converted["_UIAspectRatioConstraint"].Parent = Converted["_Frame"]
+Converted["_credits"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_credits"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_credits"].BorderSizePixel = 0
+Converted["_credits"].Position = UDim2.new(0, 0, 0.684542596, 0)
+Converted["_credits"].Size = UDim2.new(0.995826423, 0, 0.0157728698, 0)
+Converted["_credits"].Name = "credits"
+Converted["_credits"].Parent = Converted["_Frame"]
+
+Converted["_UICorner15"].Parent = Converted["_credits"]
+
+Converted["_UIStroke15"].Parent = Converted["_credits"]
+
+Converted["_TextLabel2"].Font = Enum.Font.Unknown
+Converted["_TextLabel2"].Text = "Scripts creators: HatHub - vesersus, Portal gun - vesersus, German Greet - vesersus. 		| Other scripts owners i dont found. |"
+Converted["_TextLabel2"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel2"].TextScaled = true
+Converted["_TextLabel2"].TextSize = 14
+Converted["_TextLabel2"].TextWrapped = true
+Converted["_TextLabel2"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel2"].BackgroundTransparency = 1
+Converted["_TextLabel2"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextLabel2"].BorderSizePixel = 0
+Converted["_TextLabel2"].Position = UDim2.new(0.0255801156, 0, 2.35394287, 0)
+Converted["_TextLabel2"].Size = UDim2.new(0, 401, 0, 80)
+Converted["_TextLabel2"].Parent = Converted["_credits"]
+
+Converted["_UIAspectRatioConstraint"].AspectRatio = 82.20000457763672
+Converted["_UIAspectRatioConstraint"].Parent = Converted["_credits"]
+
+Converted["_UIAspectRatioConstraint1"].AspectRatio = 1.3019638061523438
+Converted["_UIAspectRatioConstraint1"].Parent = Converted["_Frame"]
 
 -- Fake Module Scripts:
 
@@ -365,7 +400,7 @@ local fake_module_scripts = {}
 
 -- Fake Local Scripts:
 
-local function DSTOAXF_fake_script() -- Fake Script: StarterGui.ScreenGui.Frame.Infyield.LocalScript
+local function JGRNWB_fake_script() -- Fake Script: StarterGui.ScreenGui.Frame.Infyield.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_Infyield"]
@@ -385,7 +420,7 @@ local function DSTOAXF_fake_script() -- Fake Script: StarterGui.ScreenGui.Frame.
 	end)
 	
 end
-local function OSUMIO_fake_script() -- Fake Script: StarterGui.ScreenGui.Frame.fakevr.LocalScript
+local function KKRWLP_fake_script() -- Fake Script: StarterGui.ScreenGui.Frame.fakevr.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_fakevr"]
@@ -405,7 +440,7 @@ local function OSUMIO_fake_script() -- Fake Script: StarterGui.ScreenGui.Frame.f
 	end)
 	
 end
-local function WAUPDA_fake_script() -- Fake Script: StarterGui.ScreenGui.Frame.hathub.LocalScript
+local function CKVQ_fake_script() -- Fake Script: StarterGui.ScreenGui.Frame.hathub.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_hathub"]
@@ -425,7 +460,7 @@ local function WAUPDA_fake_script() -- Fake Script: StarterGui.ScreenGui.Frame.h
 	end)
 	
 end
-local function ZWCBVC_fake_script() -- Fake Script: StarterGui.ScreenGui.Frame.ghosthub.LocalScript
+local function VQMRIJ_fake_script() -- Fake Script: StarterGui.ScreenGui.Frame.ghosthub.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_ghosthub"]
@@ -445,7 +480,7 @@ local function ZWCBVC_fake_script() -- Fake Script: StarterGui.ScreenGui.Frame.g
 	end)
 	
 end
-local function GECOSZZ_fake_script() -- Fake Script: StarterGui.ScreenGui.Frame.portalgun.LocalScript
+local function PNHMD_fake_script() -- Fake Script: StarterGui.ScreenGui.Frame.portalgun.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_portalgun"]
@@ -465,7 +500,7 @@ local function GECOSZZ_fake_script() -- Fake Script: StarterGui.ScreenGui.Frame.
 	end)
 	
 end
-local function XDHNU_fake_script() -- Fake Script: StarterGui.ScreenGui.Frame.fakevr2.LocalScript
+local function GKPGN_fake_script() -- Fake Script: StarterGui.ScreenGui.Frame.fakevr2.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_fakevr2"]
@@ -485,7 +520,7 @@ local function XDHNU_fake_script() -- Fake Script: StarterGui.ScreenGui.Frame.fa
 	end)
 	
 end
-local function MKITD_fake_script() -- Fake Script: StarterGui.ScreenGui.Frame.giant.LocalScript
+local function MPOLNP_fake_script() -- Fake Script: StarterGui.ScreenGui.Frame.giant.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_giant"]
@@ -505,7 +540,7 @@ local function MKITD_fake_script() -- Fake Script: StarterGui.ScreenGui.Frame.gi
 	end)
 	
 end
-local function ZKLNUGB_fake_script() -- Fake Script: StarterGui.ScreenGui.Frame.satanfling.LocalScript
+local function ZMRYN_fake_script() -- Fake Script: StarterGui.ScreenGui.Frame.satanfling.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_satanfling"]
@@ -525,7 +560,7 @@ local function ZKLNUGB_fake_script() -- Fake Script: StarterGui.ScreenGui.Frame.
 	end)
 	
 end
-local function QLFCDW_fake_script() -- Fake Script: StarterGui.ScreenGui.Frame.flinghands.LocalScript
+local function YCNRLQ_fake_script() -- Fake Script: StarterGui.ScreenGui.Frame.flinghands.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_flinghands"]
@@ -545,7 +580,7 @@ local function QLFCDW_fake_script() -- Fake Script: StarterGui.ScreenGui.Frame.f
 	end)
 	
 end
-local function JBIHS_fake_script() -- Fake Script: StarterGui.ScreenGui.Frame.hug.LocalScript
+local function SODSKP_fake_script() -- Fake Script: StarterGui.ScreenGui.Frame.hug.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_hug"]
@@ -565,7 +600,7 @@ local function JBIHS_fake_script() -- Fake Script: StarterGui.ScreenGui.Frame.hu
 	end)
 	
 end
-local function BAKQ_fake_script() -- Fake Script: StarterGui.ScreenGui.Frame.meowhub.LocalScript
+local function TOJQBJY_fake_script() -- Fake Script: StarterGui.ScreenGui.Frame.meowhub.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_meowhub"]
@@ -585,7 +620,7 @@ local function BAKQ_fake_script() -- Fake Script: StarterGui.ScreenGui.Frame.meo
 	end)
 	
 end
-local function KRTMO_fake_script() -- Fake Script: StarterGui.ScreenGui.Frame.greet.LocalScript
+local function PPDY_fake_script() -- Fake Script: StarterGui.ScreenGui.Frame.greet.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_greet"]
@@ -606,15 +641,15 @@ local function KRTMO_fake_script() -- Fake Script: StarterGui.ScreenGui.Frame.gr
 	
 end
 
-coroutine.wrap(DSTOAXF_fake_script)()
-coroutine.wrap(OSUMIO_fake_script)()
-coroutine.wrap(WAUPDA_fake_script)()
-coroutine.wrap(ZWCBVC_fake_script)()
-coroutine.wrap(GECOSZZ_fake_script)()
-coroutine.wrap(XDHNU_fake_script)()
-coroutine.wrap(MKITD_fake_script)()
-coroutine.wrap(ZKLNUGB_fake_script)()
-coroutine.wrap(QLFCDW_fake_script)()
-coroutine.wrap(JBIHS_fake_script)()
-coroutine.wrap(BAKQ_fake_script)()
-coroutine.wrap(KRTMO_fake_script)()
+coroutine.wrap(JGRNWB_fake_script)()
+coroutine.wrap(KKRWLP_fake_script)()
+coroutine.wrap(CKVQ_fake_script)()
+coroutine.wrap(VQMRIJ_fake_script)()
+coroutine.wrap(PNHMD_fake_script)()
+coroutine.wrap(GKPGN_fake_script)()
+coroutine.wrap(MPOLNP_fake_script)()
+coroutine.wrap(ZMRYN_fake_script)()
+coroutine.wrap(YCNRLQ_fake_script)()
+coroutine.wrap(SODSKP_fake_script)()
+coroutine.wrap(TOJQBJY_fake_script)()
+coroutine.wrap(PPDY_fake_script)()
